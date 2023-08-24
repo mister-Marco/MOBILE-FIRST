@@ -1,0 +1,54 @@
+/* Reset de estilos básicos para padronização */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcfafa;
+}
+
+header {
+    background-color: #ca1919;
+    color: rgb(234, 230, 230);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+
+.featured-movie {
+    text-align: center;
+    padding: 20px;
+}
+
+.movie-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(250, 247, 247);
+}
+
+.movie-card img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #bc3737;
+    color: rgb(4, 4, 4);
+}
