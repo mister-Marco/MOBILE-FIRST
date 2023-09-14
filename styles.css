@@ -6,14 +6,23 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fcfafa;
+    background-color: rgb(243, 239, 239);
+    color: rgb(59, 72, 211);
 }
 
 header {
-    background-color: #ca1919;
-    color: rgb(234, 230, 230);
+    background-color: rgb(2, 2, 2);
     padding: 10px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Para alinhar o logo à esquerda e a navegação à direita */
+    align-items: center; /* Para centralizar verticalmente */
+    
+}
+
+.logo img {
+    max-width: 50px; /* Tamanho máximo do logo */
+    margin-left: 20px; /* Espaço à esquerda do logo */
+    border-radius: 80px
 }
 
 nav ul {
@@ -27,7 +36,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: rgb(7, 7, 7);
+    color: rgb(13, 13, 13);
 }
 
 .featured-movie {
@@ -39,7 +48,7 @@ nav a {
     border: 1px solid #ccc;
     padding: 10px;
     margin: 10px;
-    background-color: rgb(250, 247, 247);
+    background-color: red;
 }
 
 .movie-card img {
@@ -49,6 +58,9 @@ nav a {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #bc3737;
-    color: rgb(4, 4, 4);
+    background-color: red;
+}
+
+.cabeçalho {
+    text-align: 
 }
